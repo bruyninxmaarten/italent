@@ -1,0 +1,126 @@
+.blog{
+    background-color: #0087ca;
+    color: white;
+    padding: 2% 5%;
+    display: inline-block !important;
+    width: 100%;
+}
+
+.blog a{
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration:none;
+    color: white;
+    cursor: pointer;
+}
+
+.blog .hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.blog .hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.blog .hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.about, .contact{
+    width: 100%;
+    display: flex;
+}
+
+.about h2{
+    display: flex;
+    align-items:center;
+}
+
+.about .left{
+    width: 50%;
+    padding: 5%;
+}
+
+.about .right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact div{
+    width: 50%;
+}
+
+.contact .left{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.contact .right{
+    background-color: #0087ca;
+    color: white;
+    padding:5%;
+}
+
+.about img, .contact img{
+    width: 50%;
+}
+
+.accent{
+    color: #0087ca;
+    margin-right: 10px;
+    display: inline;
+}
+
+.white{
+    color: white;
+}
+
+.reveal{
+    color: black !important;
+    display: inline;
+}
+
+.whoami{
+    display: none;
+    color: rgba(0, 0, 0, 0.45);
+    padding: 0.5% 1%;
+    font-size: 10px;
+    margin-left: 15px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.reveal:hover + span{
+    display: inline;
+}
+
+.bulletPoint{
+    margin: 2% 0; 
+    padding: 1% 2%;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: inline-block;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.contact .hover-underline-animation:after{
+    background-color: white;
+}
