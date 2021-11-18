@@ -41,10 +41,10 @@ class Home extends Component {
                             Hasselt, Belgium.
                         </div> <br/>
                         <div className="bulletPoint" data-aos="fade-right" data-aos-delay="800">
-                            2 years at PXL Hasselt, started in Jan 2020.
+                             Started PXL Hasselt in January 2020.
                         </div> <br/>
                         <div className="bulletPoint" data-aos="fade-right" data-aos-delay="900">
-                            On track to graduate in Jul 2022, after 2.5 years.
+                            On track to graduate in July 2022.
                         </div><br/><br/>
                         <div data-aos="fade-up" ata-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000">
                             <ButtonPrimary target="/cv" text="Click here to view my CV"/>
@@ -63,14 +63,14 @@ class Home extends Component {
                         <Title line1="Contact me"/>
                         <h2 data-aos="fade-left" data-aos-delay="650">
                             <span 
-                                className="white">Let's work togheter 
+                                className="white">Let's work together 
                             </span>
                         </h2><br/>
-                        <span data-aos="fade-left" data-aos-delay="800">LinkedIn</span><br/>
+                        <span data-aos="fade-left" data-aos-delay="800" className="label">LinkedIn</span><br/>
                         <div data-aos="fade-left" data-aos-delay="800">
                             <a className="hover-underline-animation" href='https://www.linkedin.com/in/bruyninxmaarten/'>bruyninxmaarten</a>
                         </div> <br/>
-                        <span data-aos="fade-left" data-aos-delay="900">Email</span><br/>
+                        <span data-aos="fade-left" data-aos-delay="900" className="label">Email</span><br/>
                         <div data-aos="fade-left" data-aos-delay="900">
                             maarten.bruyninx@gmail.com
                         </div> <br/>

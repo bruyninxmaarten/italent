@@ -124,3 +124,7 @@
 .contact .hover-underline-animation:after{
     background-color: white;
 }
+
+.label{
+    font-weight: 200;
+}
