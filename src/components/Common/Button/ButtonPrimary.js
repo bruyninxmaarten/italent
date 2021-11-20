@@ -6,7 +6,7 @@ class ButtonPrimary extends Component {
         super(props);
     }
     render() {
-        return <a href={this.props.target} className="btn btn-primary">{this.props.text}</a>
+        return <a href={this.props.target} className="btn btn-primary hover-underline-animation white-line">{this.props.text}</a>
     }
 }
 

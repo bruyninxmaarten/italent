@@ -1,10 +1,15 @@
 .blog{
     background-color: #0087ca;
     color: white;
-    padding: 2% 5%;
-    display: inline-block !important;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    align-items: start;
+    justify-content: center;
     width: 100%;
+    height: 12vh;
 }
+
 
 .blog a{
     font-weight: 700;
@@ -12,6 +17,7 @@
     text-decoration:none;
     color: white;
     cursor: pointer;
+    display: block;
 }
 
 .blog .hover-underline-animation {
@@ -42,33 +48,53 @@
     display: flex;
 }
 
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.category{
+    color: #0087ca;
+}
+
+
 .about h2{
     display: flex;
     align-items:center;
 }
 
-.about .left{
+.text-side{
     width: 50%;
     padding: 5%;
 }
 
-.about .right{
+.image-side{
     width: 50%;
     display: flex;
     justify-content: center;
+}
+
+.spacer{
+   margin: 0 5px; 
 }
 
 .contact div{
     width: 50%;
 }
 
-.contact .left{
-    display: flex;
-    justify-content: center;
+.contact .image-side{
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.contact .right{
+.contact .text-side{
     background-color: #0087ca;
     color: white;
     padding:5%;
@@ -76,6 +102,10 @@
 
 .about img, .contact img{
     width: 50%;
+}
+
+.large img{
+    width: 70%;
 }
 
 .accent{
@@ -112,6 +142,24 @@
     font-size: 18px;
     background-color: rgba(0, 0, 0, 0.05);
     display: inline-block;
+}
+
+.tag{
+    padding: 1% 2%;
+    font-size: 16px !important;
+    background-color: #f2f2f2;
+    margin: 1%;
+    display: flex !important;
+    width: min-content;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top: 2%;
 }
 
 .contact a{
