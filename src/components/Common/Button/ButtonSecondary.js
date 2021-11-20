@@ -6,7 +6,7 @@ class ButtonSecondary extends Component {
         super(props);
     }
     render() {
-        return <a href={this.props.target} className="btn btn-secondary">{this.props.text}</a>
+        return <a href={this.props.target} className="btn btn-secondary hover-underline-animation">{this.props.text}</a>
     }
 }
 

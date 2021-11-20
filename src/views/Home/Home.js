@@ -47,7 +47,7 @@ class Home extends Component {
                             On track to graduate in July 2022.
                         </div><br/><br/>
                         <div data-aos="fade-up" ata-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000">
-                            <ButtonPrimary target="/cv" text="Click here to view my CV"/>
+                            <ButtonPrimary target="/cv" text="Want to know more? click here to view my CV"/>
                         </div>
                     </div>
                     <div className="right" data-aos="fade-left" data-aos-delay="500">

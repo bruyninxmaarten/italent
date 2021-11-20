@@ -1,17 +1,17 @@
 .btn{
     display: inline-block;
-    padding: 1% 2%;
+    padding: 1.5% 2.5%;
     text-decoration: none;
     font-weight: 500;
     cursor: pointer;
 }
 
 .btn-primary{
-    color: white;
+    color: white !important;
     background-color: #0087ca;
 }
 
 .btn-secondary{
     color: #0087ca;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.05);
 }
