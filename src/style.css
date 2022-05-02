@@ -11,7 +11,7 @@
     }
 
 .App{
-    margin-top: 10vh;
+    margin-top: 8vh;
     overflow: hidden;
 }
 
@@ -53,4 +53,33 @@ a{
 
 .white-line:after{
     background-color:#f2f2f2;
+}
+
+
+.Italent{
+  display: flex;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 15vh;
+}
+
+.Italent .content, .action{
+  width: 50%;
+}
+
+.Italent .content{
+  background-color: #3b4252;
+  color: #f2f2f2;
+  padding: 2%;
+}
+
+.Italent .action{
+  background: #0087ca;
+  color: #f2f2f2;
+  padding: 2%;
+}
+
+.Italent .action a { 
+  text-decoration: none;
+  color: #f2f2f2 !important;
 }

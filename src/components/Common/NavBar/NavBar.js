@@ -12,8 +12,8 @@ class Navbar extends Component {
                     <a className="hover-underline-animation" href="/italent">Home</a>
                     <a className="hover-underline-animation" href="/italent/#about">About</a>
                     <a className="hover-underline-animation" href="/italent/#skills">Skills</a>
-                    <a className="hover-underline-animation" href="/italent/#contact">Contact</a>
-                    <ButtonSecondary target="/blog" text="Italent Blog"/>
+                    <a className="hover-underline-animation" href="/italent/#italent">ITalent</a>
+                    <a className="hover-underline-animation" href="/italent/#contact">Contact</a>                 
                 </div>
             </div>
         )

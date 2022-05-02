@@ -23,8 +23,8 @@ class Home extends Component {
             <div className="home">
                 <Hero/>
                 <div className="blog" id="about" >
-                    <h2>My I-Talent portfolio</h2>
-                    <p>Want to know more about my degree and I-Talent? <a href="/blog" className='hover-underline-animation'> Click here to see my blog. </a></p>
+                    <h2>Mijn I-Talent portfolio</h2>
+                    <p>Wil je meer weten over wie ik ben en wat ik doe? <a href="/blog" className='hover-underline-animation'> Klik hier voor mijn ITalent. </a></p>
                 </div>
                 <div className="about">
                     <div className="text-side">
@@ -37,21 +37,21 @@ class Home extends Component {
                             <span className='whoami'> linux command to print current user</span> 
                         </h2>
                         <div className="bulletPoint" data-aos="fade-right" data-aos-delay="600">
-                            23 years old.
+                            24 jaar.
                         </div> <br/>
                         <div className="bulletPoint" data-aos="fade-right" data-aos-delay="700">
                             Hasselt, Belgium.
                         </div> <br/>
                         <div className="bulletPoint" data-aos="fade-right" data-aos-delay="800">
-                             Started PXL Hasselt in January 2020.
+                            Startte PXL Hasselt in januari 2020.
                         </div> <br/>
                         <div className="bulletPoint" data-aos="fade-right" data-aos-delay="900">
-                            On track to graduate in July 2022.
+                            Studeer af in de zomer van 2022.
                         </div><br/><br/>
                         <div data-aos="fade-up" ata-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000" className="buttons">
-                            <ButtonPrimary target="/about" text="Click to download my CV"/>
+                            <ButtonPrimary target="https://drive.google.com/file/d/1FgN2m-bkYKwBXuuuXWyXrLXNnKYPlq4x/view?usp=sharing" text="Bekijk mijn ITalent PDF"/>
                             <span className="spacer">&nbsp;</span>
-                            <ButtonSecondary target="#skills" text="Learn about my skills"/>
+                            <ButtonSecondary target="#skills" text="Bekijk mijn skills"/>
                         </div>
                     </div>
                     <div className="image-side large" data-aos="fade-left" data-aos-delay="500">
@@ -70,6 +70,7 @@ class Home extends Component {
                             <div className="tags">
                                 <div className="tag">HTML</div>
                                 <div className="tag">CSS</div>
+                                <div className="tag">SCSS</div>
                                 <div className="tag">Bootstrap</div>
                                 <div className="tag">JavaScript</div>
                                 <div className="tag">Vue</div>
@@ -95,20 +96,39 @@ class Home extends Component {
                                 <div className="tag">Figma</div>
                                 <div className="tag">Jira</div>
                                 <div className="tag">Confluence</div>
+                                <div className="tag">BettyBlocks</div>
+                                <div className="tag">etc..</div>
                             </div>
                              </div>
                     </div>
                     
+                </div>
+                <div className="Italent" id="italent">
+                    <div className="content" data-aos="fade-right" data-aos-delay="500">
+                        <h1>ITalent</h1>
+                        <br />
+                        <h3>
+                            Tijdens mijn opleiding werkte ik aan een ITalent portfolio. Deze beschrijft wie ik ben en wat ik doe. <br/>
+                        </h3>
+                    </div>
+                    <div className="action" data-aos="fade-left" data-aos-delay="500">
+                        <h1>Portfolio</h1>
+                        <br/>
+                        <h3>
+                            Wil u graag meer weten over wie ik ben en wat ik doe? <br /><br />
+                            <a href="https://drive.google.com/file/d/1FgN2m-bkYKwBXuuuXWyXrLXNnKYPlq4x/view?usp=sharing" target="_blanc">Klik hier en ga naar mijn ITalent portfolio</a>
+                        </h3>
+                    </div>
                 </div>
                 <div className="contact" id="contact">
                     <div className="image-side" data-aos="fade-right" data-aos-delay="500">
                         <img src={contactSvg}/>
                     </div>
                     <div className="text-side" data-aos="fade-left" data-aos-delay="500">
-                        <Title line1="Contact me"/>
+                        <Title line1="Contact"/>
                         <h2 data-aos="fade-left" data-aos-delay="650">
                             <span 
-                                className="white">Let's work together 
+                                className="white">Neem contact met me op! 
                             </span>
                         </h2><br/>
                         <span data-aos="fade-left" data-aos-delay="800" className="label">LinkedIn</span><br/>
