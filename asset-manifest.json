@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/italent/static/css/main.8c0592e1.chunk.css",
+    "main.js": "/italent/static/js/main.a4d49b50.chunk.js",
+    "main.js.map": "/italent/static/js/main.a4d49b50.chunk.js.map",
+    "runtime-main.js": "/italent/static/js/runtime-main.0b897cd2.js",
+    "runtime-main.js.map": "/italent/static/js/runtime-main.0b897cd2.js.map",
+    "static/js/2.9b2762f2.chunk.js": "/italent/static/js/2.9b2762f2.chunk.js",
+    "static/js/2.9b2762f2.chunk.js.map": "/italent/static/js/2.9b2762f2.chunk.js.map",
+    "index.html": "/italent/index.html",
+    "static/css/main.8c0592e1.chunk.css.map": "/italent/static/css/main.8c0592e1.chunk.css.map",
+    "static/js/2.9b2762f2.chunk.js.LICENSE.txt": "/italent/static/js/2.9b2762f2.chunk.js.LICENSE.txt",
+    "static/media/about.ac812718.svg": "/italent/static/media/about.ac812718.svg",
+    "static/media/contact2.8689ee18.svg": "/italent/static/media/contact2.8689ee18.svg",
+    "static/media/Hero.css": "/italent/static/media/hero.dadf61ce.jpg",
+    "static/media/skills.510ca2ba.svg": "/italent/static/media/skills.510ca2ba.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b897cd2.js",
+    "static/js/2.9b2762f2.chunk.js",
+    "static/css/main.8c0592e1.chunk.css",
+    "static/js/main.a4d49b50.chunk.js"
+  ]
+}
